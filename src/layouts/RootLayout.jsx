@@ -10,7 +10,7 @@ export default function RootLayout() {
       <main
         className={cn(
           "max-h-[calc(100% - 160px)] my-8 shrink-0 grow-1",
-          "flex flex-col",
+          "grid grid-cols-12 gap-6",
         )}
       >
         <Outlet />
